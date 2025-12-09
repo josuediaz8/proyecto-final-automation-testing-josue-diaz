@@ -18,6 +18,6 @@ def driver():
     driver.quit()
 
 @pytest.fixture
-def login_in_driver(driver):
-    LoginPage(driver).abrir_pagina()
+def login_in_driver(driver,usuario,password):
+    LoginPage(driver).abrir_pagina().login_completo(usuario,password)
     return driver
