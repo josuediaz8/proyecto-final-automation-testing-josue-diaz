@@ -21,3 +21,11 @@ def driver():
 def login_in_driver(driver,usuario,password):
     LoginPage(driver).abrir_pagina().login_completo(usuario,password)
     return driver
+
+@pytest.fixture
+def url_base():
+    return "https://jsonplaceholder.typicode.com/"
+
+@pytest.fixture
+def header_request():
+    return {"x-api-key": "reqres-free-v1"}
