@@ -31,7 +31,7 @@ def test_inventory(login_in_driver,usuario,password):
 
         # Verificar el contador del carrito
         logger.info(f"Verificando el contador del carrito")
-        assert inventory_page.obtener_conteo_carrito() == 1
+        assert inventory_page.obtener_conteo_carrito() == 10 #coloco 10 para que falle a proposito, debe ser 1
        
     except Exception as e:
         print(f"Error en test_inventory: {e}")

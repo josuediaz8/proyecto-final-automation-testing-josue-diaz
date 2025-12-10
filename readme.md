@@ -19,7 +19,7 @@ En este proyecto se automatizan las siguientes pruebas:
 - Python: Lenguaje de programación utilizado para crear scripts que ejecutan pruebas automáticamente en aplicaciones de software, en lugar de realizar el proceso manualmente
 - Selenium WebDriver: Herramienta para automatizar pruebas de navegadores web, permitiendo simular acciones del usuario real.
 - Pytest: Framework de pruebas en Python que facilita la escritura y ejecución de casos de prueba automáticos.
-- Faker:
+- Faker:  Paquete Python de código abierto que se utiliza para crear un conjunto de datos falso para probar aplicaciones
 - CSV /JSON
 
 
