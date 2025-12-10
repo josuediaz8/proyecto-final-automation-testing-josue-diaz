@@ -1,0 +1,34 @@
+2025-12-10 12:26:20 INFO TalentoTech: Completando con los datos de usuario
+2025-12-10 12:26:22 INFO TalentoTech: Validando redireccionamiento dentro de la pagina
+2025-12-10 12:26:22 INFO TalentoTech: test de login completado
+2025-12-10 12:26:27 INFO TalentoTech: Completando con los datos de usuario
+2025-12-10 12:26:29 INFO TalentoTech: Validando redireccionamiento dentro de la pagina
+2025-12-10 12:26:29 INFO TalentoTech: test de login completado
+2025-12-10 12:26:34 INFO TalentoTech: Completando con los datos de usuario
+2025-12-10 12:26:36 INFO TalentoTech: Test de login fallido completado con exito
+2025-12-10 12:27:57 INFO TalentoTech: Completando con los datos de usuario, User: standard_user, password: secret_sauce
+2025-12-10 12:27:59 INFO TalentoTech: Validando redireccionamiento dentro de la pagina
+2025-12-10 12:27:59 INFO TalentoTech: test de login completado
+2025-12-10 12:28:04 INFO TalentoTech: Completando con los datos de usuario, User: problem_user, password: secret_sauce
+2025-12-10 12:28:06 INFO TalentoTech: Validando redireccionamiento dentro de la pagina
+2025-12-10 12:28:06 INFO TalentoTech: test de login completado
+2025-12-10 12:28:11 INFO TalentoTech: Completando con los datos de usuario, User: admin, password: 1234
+2025-12-10 12:28:13 INFO TalentoTech: Test de login fallido completado con exito
+2025-12-10 13:02:47 INFO TalentoTech: Relizando la solitud GET a https://jsonplaceholder.typicode.com/ 
+2025-12-10 13:02:47 INFO TalentoTech: Status code GET: 200
+2025-12-10 13:02:47 INFO TalentoTech: Validando el id dentro del response
+2025-12-10 13:02:47 INFO TalentoTech: Relizando la solitud POST a https://jsonplaceholder.typicode.com//posts
+2025-12-10 13:02:48 INFO TalentoTech: Status code POST: 201
+2025-12-10 13:02:48 INFO TalentoTech: Validando el 'NAME' dentro del response
+2025-12-10 13:02:48 INFO TalentoTech: Relizando la solitud POST a https://jsonplaceholder.typicode.com//posts/1
+2025-12-10 13:02:48 INFO TalentoTech: Status code DELETE: 200
+2025-12-10 13:13:14 INFO TalentoTech: Validando que existen productos en la url: https://www.saucedemo.com/inventory.html
+2025-12-10 13:16:34 INFO TalentoTech: Validando que existen productos en la url: https://www.saucedemo.com/inventory.html
+2025-12-10 13:16:34 INFO TalentoTech: Cantidad de productos: 6
+2025-12-10 13:16:34 INFO TalentoTech: Validando el carrito vacio
+2025-12-10 13:16:44 INFO TalentoTech: Agregando el primer producto al carrito
+2025-12-10 13:16:46 INFO TalentoTech: Verificando el contador del carrito
+2025-12-10 13:22:20 INFO TalentoTech: Agregando primer producto
+2025-12-10 13:22:20 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado
+2025-12-10 13:22:20 INFO TalentoTech: Validando que exista 1 producto agregado en la url: https://www.saucedemo.com/cart.html
+2025-12-10 13:22:20 INFO TalentoTech: Cantidad de productos existentes: 1
