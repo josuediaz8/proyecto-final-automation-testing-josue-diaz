@@ -12,7 +12,7 @@ def test_get_user(url_base):
     data = response.json()
 
 #Crear Usuario
-def test_create_user(url_base,header_request):
+def test_create_user(url_base):
 
     payload={
         "name": "Josue",

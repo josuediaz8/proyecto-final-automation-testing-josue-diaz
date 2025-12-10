@@ -26,5 +26,7 @@ def test_cart(login_in_driver,usuario,password):
     except Exception as e:
         print(f"Error en test_cart: {e}")
         raise
-    finally:
-        driver.quit()
+# Lo comento debido a que ya hace el driver.quit en el conftest y al intentar hacerlo 2 veces da "WARNING" en el reporte
+#La prueba igual sale Ok pero para no tener ese WARNING lo quito
+#     finally: 
+#        driver.quit()
