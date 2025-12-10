@@ -32,3 +32,5 @@
 2025-12-10 13:22:20 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado
 2025-12-10 13:22:20 INFO TalentoTech: Validando que exista 1 producto agregado en la url: https://www.saucedemo.com/cart.html
 2025-12-10 13:22:20 INFO TalentoTech: Cantidad de productos existentes: 1
+2025-12-10 17:56:32 INFO TalentoTech: Validando que FALLE el Login con Faker... User: ebrown, password: v^Z7Fr_*
+2025-12-10 17:56:38 INFO TalentoTech: Validando que FALLE el Login con Faker... User: reginald12, password: Cec9Xnpf4(
