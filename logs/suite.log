@@ -66,3 +66,12 @@
 2025-12-11 13:18:58 INFO TalentoTech: Validando el carrito vacio
 2025-12-11 13:19:09 INFO TalentoTech: Agregando el primer producto al carrito
 2025-12-11 13:19:11 INFO TalentoTech: Verificando el contador del carrito
+2025-12-11 16:45:42 INFO TalentoTech: Agregando primer producto en test cart Json
+2025-12-11 16:45:42 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
+2025-12-11 16:45:43 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Backpack
+2025-12-11 16:46:04 INFO TalentoTech: Agregando primer producto en test cart Json
+2025-12-11 16:46:04 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
+2025-12-11 16:46:05 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Bike Light
+2025-12-11 16:46:27 INFO TalentoTech: Agregando primer producto en test cart Json
+2025-12-11 16:46:27 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
+2025-12-11 16:46:28 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Bolt T-Shirt

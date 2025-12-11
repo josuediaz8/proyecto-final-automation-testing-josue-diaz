@@ -6,7 +6,7 @@ on:
     branches: [main,develop]
 jobs:
   test:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     env:
       PYTHON_VERSION: '3.12'
       PIP_CACHE: ~/.cache/pip
