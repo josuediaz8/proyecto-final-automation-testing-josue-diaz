@@ -20,7 +20,7 @@ def test_inventory(login_in_driver,usuario,password):
         logger.info(f"Cantidad de productos: {len(inventory_page.obtener_todos_los_productos())}")
         
         # Verificar vacio el carrito al inicio
-        logger.info(f"Validando el carrito vacio")
+        logger.info(f"Validando el carrito vacio") 
         assert inventory_page.obtener_conteo_carrito() == 0
 
         # Agregar el primer producto
