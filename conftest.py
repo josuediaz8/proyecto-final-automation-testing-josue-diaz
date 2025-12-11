@@ -48,3 +48,5 @@ def pytest_runtest_makereport(item,call): #item es el test / call: ejecucion act
             timestamp_unix = int(time.time())
             file_name= target / f"{report.when}_{item.name}_{timestamp_unix}.png" #nombre de la imagen
             driver.save_screenshot(str(file_name))
+
+#comentario para probar CI/CD
