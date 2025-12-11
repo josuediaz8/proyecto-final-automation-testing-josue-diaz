@@ -61,3 +61,8 @@
 2025-12-10 19:05:23 INFO TalentoTech: Validando el 'NAME' dentro del response
 2025-12-10 19:05:23 INFO TalentoTech: Relizando la solitud DELETE a https://jsonplaceholder.typicode.com//posts/1
 2025-12-10 19:05:23 INFO TalentoTech: Status code DELETE: 200
+2025-12-11 13:18:58 INFO TalentoTech: Validando que existen productos en la url: https://www.saucedemo.com/inventory.html
+2025-12-11 13:18:58 INFO TalentoTech: Cantidad de productos: 6
+2025-12-11 13:18:58 INFO TalentoTech: Validando el carrito vacio
+2025-12-11 13:19:09 INFO TalentoTech: Agregando el primer producto al carrito
+2025-12-11 13:19:11 INFO TalentoTech: Verificando el contador del carrito

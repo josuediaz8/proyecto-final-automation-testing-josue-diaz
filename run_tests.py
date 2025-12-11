@@ -9,4 +9,4 @@ now = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 #pytest_args = test_files + [f"--html=report-{now}.html", "--self-contained-html", "-v"]
 
 
-pytest.main(["tests/",f"--html=report-{now}.html", "--self-contained-html", "-v"])
+pytest.main(["tests/",f"--html=reports/report-{now}.html", "--self-contained-html", "-v"])
