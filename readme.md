@@ -12,6 +12,7 @@ En este proyecto se automatizan las siguientes pruebas:
 - Validar que se pueda agregar un producto al carrito
 - Validar que se incremente el carrito de compra
 - Validar que el producto agregado al carrito sea el correcto
+- Validar que los metodos GET, POST, DELETE de la API JsonPlaceHolder funcionen correctamente
 
 ## Tecnologías utilizadas
 
@@ -20,7 +21,7 @@ En este proyecto se automatizan las siguientes pruebas:
 - Selenium WebDriver: Herramienta para automatizar pruebas de navegadores web, permitiendo simular acciones del usuario real.
 - Pytest: Framework de pruebas en Python que facilita la escritura y ejecución de casos de prueba automáticos.
 - Faker:  Paquete Python de código abierto que se utiliza para crear un conjunto de datos falso para probar aplicaciones
-- CSV /JSON
+- CSV /JSON: Archivos para manejar datos externamente
 
 
 ## Instrucciones de instalación de dependencias
@@ -46,7 +47,7 @@ Tambien se genera un log con informacion detallada de toda la ejecución de las 
 
 Se realizan capturas de pantalla por cada test que haya fallado y se encuentran en la siguiente ubicacion: ```reports/screens/```
 
-## Ejuctar todas las pruebas
+## Ejecutar todas las pruebas
 Para iniciar la ejecucion de las pruebas debes ejecutar la siguiente linea:
 
 ```bash
@@ -84,6 +85,11 @@ py -m pytest -v .\tests\test_carrito.py
     - `data_login.csv` -> datos de usuarios validos o invalidos
     - `productos.json` -> datos de productos para validacion
 
+## CI / CD
+Configuracion con GitHub Actions para que al hacer "git push" se ejecuten las pruebas automatizadas y genere los Reportes y Logs, como artefactos de la ejecucion
+
+
+
 ### Conclusion
 Este proyecto ofrece una estructura organizada y escalable para automatizar pruebas de API utilizando Python y Pytest. Incluye un flujo simple de ejeucion mediante `run_test.py`, generacion automatica de reporte HTML facilitando el analisis de las pruebas.
 
@@ -93,3 +99,4 @@ La arquitectura del proyecto esta pensada para agregar nuevos casos de prueba y 
 👤 **Autor**
 - Josue Diaz
 - GitHub: https://github.com/josuediaz8/
+- LinkedIn: https://www.linkedin.com/in/josue-diaz-114ab4128/
