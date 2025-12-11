@@ -16,8 +16,8 @@ def driver():
     options.add_argument("--incognito")
     options.add_argument("--no-sandbox") #github
     options.add_argument("--disable-gpu") #github
-    options.add_argument("--windows-size=1920,1080") #github
-    options.add_argument("--handless=new") #github
+    options.add_argument("--window-size=1920,1080") #github
+    options.add_argument("--headless=new") #github
 
     driver = webdriver.Chrome(options=options)
     yield driver

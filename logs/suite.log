@@ -75,3 +75,39 @@
 2025-12-11 16:46:27 INFO TalentoTech: Agregando primer producto en test cart Json
 2025-12-11 16:46:27 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
 2025-12-11 16:46:28 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Bolt T-Shirt
+2025-12-11 17:19:56 INFO TalentoTech: Relizando la solitud GET a https://jsonplaceholder.typicode.com/ 
+2025-12-11 17:19:56 INFO TalentoTech: Status code GET: 200
+2025-12-11 17:19:56 INFO TalentoTech: Validando el id dentro del response
+2025-12-11 17:19:56 INFO TalentoTech: Relizando la solitud POST a https://jsonplaceholder.typicode.com//posts
+2025-12-11 17:19:57 INFO TalentoTech: Status code POST: 201
+2025-12-11 17:19:57 INFO TalentoTech: Validando el 'NAME' dentro del response
+2025-12-11 17:19:57 INFO TalentoTech: Relizando la solitud DELETE a https://jsonplaceholder.typicode.com//posts/1
+2025-12-11 17:19:58 INFO TalentoTech: Status code DELETE: 200
+2025-12-11 17:20:01 INFO TalentoTech: Agregando primer producto
+2025-12-11 17:20:01 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado
+2025-12-11 17:20:01 INFO TalentoTech: Validando que exista 1 producto agregado en la url: https://www.saucedemo.com/cart.html
+2025-12-11 17:20:01 INFO TalentoTech: Cantidad de productos existentes: 1
+2025-12-11 17:20:07 INFO TalentoTech: Agregando primer producto en test cart Json
+2025-12-11 17:20:07 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
+2025-12-11 17:20:08 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Backpack
+2025-12-11 17:20:29 INFO TalentoTech: Agregando primer producto en test cart Json
+2025-12-11 17:20:29 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
+2025-12-11 17:20:30 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Bike Light
+2025-12-11 17:20:52 INFO TalentoTech: Agregando primer producto en test cart Json
+2025-12-11 17:20:52 INFO TalentoTech: Yendo a la pagina del carrito para validar el producto agregado. Test Cart Json
+2025-12-11 17:20:53 INFO TalentoTech: Obteniendo el nombre del producto en el carrito. Test Cart Json. Nombre: Sauce Labs Bolt T-Shirt
+2025-12-11 17:21:15 INFO TalentoTech: Validando que existen productos en la url: https://www.saucedemo.com/inventory.html
+2025-12-11 17:21:15 INFO TalentoTech: Cantidad de productos: 6
+2025-12-11 17:21:15 INFO TalentoTech: Validando el carrito vacio
+2025-12-11 17:21:25 INFO TalentoTech: Agregando el primer producto al carrito
+2025-12-11 17:21:27 INFO TalentoTech: Verificando el contador del carrito
+2025-12-11 17:21:33 INFO TalentoTech: Completando con los datos de usuario, User: standard_user, password: secret_sauce
+2025-12-11 17:21:35 INFO TalentoTech: Validando redireccionamiento dentro de la pagina. Pagina actual https://www.saucedemo.com/inventory.html
+2025-12-11 17:21:35 INFO TalentoTech: test de login completado
+2025-12-11 17:21:41 INFO TalentoTech: Completando con los datos de usuario, User: problem_user, password: secret_sauce
+2025-12-11 17:21:43 INFO TalentoTech: Validando redireccionamiento dentro de la pagina. Pagina actual https://www.saucedemo.com/inventory.html
+2025-12-11 17:21:43 INFO TalentoTech: test de login completado
+2025-12-11 17:21:48 INFO TalentoTech: Completando con los datos de usuario, User: admin, password: 1234
+2025-12-11 17:21:50 INFO TalentoTech: Test de login fallido completado con exito
+2025-12-11 17:21:56 INFO TalentoTech: Validando que FALLE el Login con Faker... User: karen46, password: @87hXziq
+2025-12-11 17:22:02 INFO TalentoTech: Validando que FALLE el Login con Faker... User: dmaldonado, password: JE9eVMvz_l
